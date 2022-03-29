@@ -13,6 +13,7 @@ public class Chat {
     private String id;
     private String msg;
     private String sender; // 보내는사람
-    private String receiver; // 받는사람
+    private String receiver; // 받는사람(귓속말)
+    private Integer roomNum; // 방 번호
     private LocalDateTime createdAt;
 }
